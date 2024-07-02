@@ -50,5 +50,5 @@ const PaginatedApi = (model) => {
 app.get("/users", PaginatedApi(users));
 
 app.listen(3000, () => {
-  console.log("Server is running on port 3000");
+  console.log("Server is running live on port 3000");
 });
